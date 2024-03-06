@@ -1,0 +1,26 @@
+:root {
+  /* Fonts */
+  --titleOne: 900 5rem/1.5 var(--primary-Font);
+}
+
+/* HEADER */
+.header {
+  background-position: center;
+}
+
+.header__nav {
+  gap: unset;
+}
+
+.header__link {
+  padding: 1rem 2rem;
+}
+
+.header__link:hover {
+  transition: background-color .3s ease-in-out;
+  background-color: rgb(255 255 255 / .5);
+}
+
+.header__slogan {
+  font-size: 5rem;
+}

@@ -39,13 +39,14 @@
   --primary-Font: "Raleway", sans-serif;
 
   --paragraph: normal 1.4rem/2 var(--primary-Font);
-  --titleOne: 900 5rem/1.5 var(--primary-Font);
-  --titleTwo: 900 4rem/1.5 var(--primary-Font);
-  --titleThree: 900 3rem/1.5 var(--primary-Font);
+  --titleOne: 900 3rem/1.5 var(--primary-Font);
+  --titleTwo: 900 2.8rem/1.5 var(--primary-Font);
+  --titleThree: 900 2rem/1.5 var(--primary-Font);
 
   /* Colors */
   --white-color: #ffffff;
-  --black-color: #1f1e1e;
+  --black-color: #111111;
+  --gray-color: #343a40;
 }
 
 *,
@@ -110,4 +111,79 @@ textarea {
 [class$="__container"] {
   width: min(95%, 144rem);
   margin: 0 auto;
+}
+
+.btn {
+  padding: .5rem .2rem;
+  color: var(--gray-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--gray-color);
+}
+
+.btn:hover {
+  transition: background-color .3s ease-in-out;
+  color: var(--white-color);
+  background-color: var(--gray-color);
+}
+
+/* HEADER */
+
+.header {
+  min-height: 60rem;
+  padding-block: 2rem;
+  background-image: url("../img/img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__wrapper {
+  height: calc(60rem - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__barra {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  font: var(--titleOne);
+  color: var(--white-color);
+  font-weight: 300;
+}
+
+.header__span {
+  font-weight: 900;
+}
+
+.header__nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+}
+
+.header__link {
+  font: var(--paragraph);
+  color: var(--white-color);
+}
+
+.header__slogan-container {
+  text-align: right;
+}
+
+.header__slogan {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--white-color);
+}
+
+.header__sloganTwo {
+  margin-top: 1.6rem;
+  color: var(--white-color);
 }
