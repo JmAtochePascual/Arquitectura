@@ -112,3 +112,14 @@
   grid-column: 1 / 2;
   grid-row: 2 / 4;
 }
+
+/* FOOTER */
+.footer__barra {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__nav {
+  flex-direction: row;
+  gap: 1.6rem;
+}

@@ -282,3 +282,49 @@ textarea {
   object-fit: cover;
   object-position: center;
 }
+
+/* Footer */
+.footer {
+  margin-top: 5rem;
+  padding-block: 2rem;
+  height: 50rem;
+  background-image: url("../img/img/footer_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer__wrapper {
+  height: calc(50rem - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  color: var(--white-color);
+}
+
+.footer__barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer__link {
+  color: var(--white-color);
+
+}
+
+.footer__copy {
+  text-align: center;
+  color: var(--white-color);
+}
