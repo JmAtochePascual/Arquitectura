@@ -2,6 +2,7 @@
   /* Fonts */
   --paragraph: normal 1.6rem/2 var(--primary-Font);
   --titleOne: 900 3.6rem/1.5 var(--primary-Font);
+  --titleTwo: 900 3rem/1.5 var(--primary-Font);
 }
 
 /* HEADER */
@@ -31,4 +32,16 @@
 
 .header__sloganTwo {
   color: var(--white-color);
+}
+
+/* ABOUT */
+.about__wrapper {
+  max-width: 100rem;
+  margin-inline: auto;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about__content {
+  grid-column: 2/4;
 }

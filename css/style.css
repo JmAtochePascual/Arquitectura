@@ -40,7 +40,7 @@
 
   --paragraph: normal 1.4rem/2 var(--primary-Font);
   --titleOne: 900 3rem/1.5 var(--primary-Font);
-  --titleTwo: 900 2.8rem/1.5 var(--primary-Font);
+  --titleTwo: 900 2.4rem/1.5 var(--primary-Font);
   --titleThree: 900 2rem/1.5 var(--primary-Font);
 
   /* Colors */
@@ -186,4 +186,31 @@ textarea {
 .header__sloganTwo {
   margin-top: 1.6rem;
   color: var(--white-color);
+}
+
+/* ABOUT */
+.about {
+  margin-top: 5rem;
+  background-image: url("../img/img/nosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: 75rem;
+  background-position: center bottom;
+}
+
+.about__wrapper {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.about__content {
+  padding: 4rem;
+  background-color: var(--white-color);
+  box-shadow: 1rem 1rem 3rem 4px rgb(0 0 0 / 24%);
+  text-align: center;
+}
+
+.about__title {
+  margin-bottom: 2rem;
+  text-align: center;
 }
