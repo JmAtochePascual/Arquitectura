@@ -5,6 +5,14 @@
 }
 
 /* HEADER */
+.header {
+  min-height: 70rem;
+}
+
+.header__wrapper {
+  height: calc(70rem - 4rem);
+}
+
 .header__barra {
   flex-direction: row;
   justify-content: space-between;
