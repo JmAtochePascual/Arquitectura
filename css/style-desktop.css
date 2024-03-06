@@ -2,6 +2,7 @@
   /* Fonts */
   --titleOne: 900 5rem/1.5 var(--primary-Font);
   --titleTwo: 900 4rem/1.5 var(--primary-Font);
+  --titleThree: 900 3rem/1.5 var(--primary-Font);
 }
 
 /* HEADER */

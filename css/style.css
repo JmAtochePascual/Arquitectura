@@ -114,7 +114,9 @@ textarea {
 }
 
 .btn {
-  padding: .5rem .2rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  display: inline-block;
   color: var(--gray-color);
   background-color: var(--white-color);
   border: 1px solid var(--gray-color);
@@ -213,4 +215,46 @@ textarea {
 .about__title {
   margin-bottom: 2rem;
   text-align: center;
+}
+
+/* MAIN */
+.main {
+  margin-top: 5rem;
+}
+
+.main__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.main__grid {
+  display: grid;
+  gap: 4rem;
+}
+
+.model {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-repeat: no-repeat;
+  background-size: 70rem;
+  background-position: center bottom;
+}
+
+.model:nth-child(1) {
+  background-image: url("../img/img/modelo_basico.jpg");
+}
+
+.model:nth-child(2) {
+  background-image: url("../img/img/modelo_premier.jpg");
+}
+
+.model:nth-child(3) {
+  background-image: url("../img/img/modelo_elite.jpg");
+}
+
+.model__copy {
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 1rem 1rem 3rem 4px rgb(0 0 0 / 24%);
+  background-color: var(--white-color);
 }
