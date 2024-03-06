@@ -35,3 +35,24 @@
 .about {
   margin-top: 10rem;
 }
+
+/* GALERY */
+.galery__grid {
+  max-width: 100rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galery__img:nth-child(2) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+}
+
+.galery__img:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+}
+
+.galery__img:nth-child(6) {
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+}

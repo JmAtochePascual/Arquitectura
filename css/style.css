@@ -258,3 +258,27 @@ textarea {
   box-shadow: 1rem 1rem 3rem 4px rgb(0 0 0 / 24%);
   background-color: var(--white-color);
 }
+
+/* GALERY */
+.galery {
+  margin-top: 5rem;
+}
+
+.galery__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.galery__grid {
+  max-width: 40rem;
+  margin-inline: auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.galery__img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: center;
+}
