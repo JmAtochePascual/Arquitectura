@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   src:
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   src:
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   src:
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
   src:
@@ -139,6 +139,18 @@ textarea {
   background-position: center;
 }
 
+@supports (background-image: url("../img/img/hero.webp")) {
+  .header {
+    background-image: url("../img/img/hero.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/hero.avif")) {
+  .header {
+    background-image: url("../img/img/hero.avif");
+  }
+}
+
 .header__wrapper {
   height: calc(60rem - 4rem);
   display: flex;
@@ -199,6 +211,18 @@ textarea {
   background-position: center bottom;
 }
 
+@supports (background-image: url("../img/img/nosotros.webp")) {
+  .about {
+    background-image: url("../img/img/nosotros.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/nosotros.avif")) {
+  .about {
+    background-image: url("../img/img/nosotros.avif");
+  }
+}
+
 .about__wrapper {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -244,12 +268,48 @@ textarea {
   background-image: url("../img/img/modelo_basico.jpg");
 }
 
+@supports (background-image: url("../img/img/modelo_basico.webp")) {
+  .model:nth-child(1) {
+    background-image: url("../img/img/modelo_basico.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/modelo_basico.avif")) {
+  .model:nth-child(1) {
+    background-image: url("../img/img/modelo_basico.avif");
+  }
+}
+
 .model:nth-child(2) {
   background-image: url("../img/img/modelo_premier.jpg");
 }
 
+@supports (background-image: url("../img/img/modelo_premier.webp")) {
+  .model:nth-child(2) {
+    background-image: url("../img/img/modelo_premier.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/modelo_premier.avif")) {
+  .model:nth-child(2) {
+    background-image: url("../img/img/modelo_premier.avif");
+  }
+}
+
 .model:nth-child(3) {
   background-image: url("../img/img/modelo_elite.jpg");
+}
+
+@supports (background-image: url("../img/img/modelo_elite.webp")) {
+  .model:nth-child(3) {
+    background-image: url("../img/img/modelo_elite.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/modelo_elite.avif")) {
+  .model:nth-child(3) {
+    background-image: url("../img/img/modelo_elite.avif");
+  }
 }
 
 .model__copy {
@@ -292,6 +352,18 @@ textarea {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@supports (background-image: url("../img/img/footer_bg.webp")) {
+  .footer {
+    background-image: url("../img/img/footer_bg.webp");
+  }
+}
+
+@supports (background-image: url("../img/img/footer_bg.avif")) {
+  .footer {
+    background-image: url("../img/img/footer_bg.avif");
+  }
 }
 
 .footer__wrapper {
