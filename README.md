@@ -60,6 +60,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/Arquitectura/)
+[ver Proyecto](https://jmatochepascual.github.io/Arquitectura/)
 
 © 2024 Arquitectura Bosque. Todos los derechos reservados.
