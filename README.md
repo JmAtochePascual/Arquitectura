@@ -1,55 +1,62 @@
 # ⚡️ARQUITECTURA
 
-Este proyecto es una página web diseñada para una empresa que brinda servicios de contrucción en el bosque. Es una web atractiva para que los usuarios naveguen por los diferentes modelos diseño de arquitectura y encuentren información relevante sobre la misma.
-
-## 🎯Contenido
-
-1. 📝[Descripción](#descripción)
-2. 🛠️[Tecnologías y Herramientas](#tecnologías-y-herramientas)
-3. 🚀[Estructura del Proyecto](#estructura-del-proyecto)
-4. 🧑‍💻[Uso](#uso)
-5. 📌[Instalación](#instalación)
-6. 🏗️[Contribución](#contribución)
-7. ✨[Licencia](#licencia)
-8. 🙈[Imagen de Referencia](#imagen-de-rereferencia)
-9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
-
-## Descripción
-
-El proyecto es una página web completa que sirve como plataforma de Muestra de proyectos de arquitectura en línea. Ofrece una experiencia de usuario atractiva y fácil de usar, con secciones que incluyen los distintos modelos y con una gáleria que muestra los interiores.
+Arquitectura Bosque presenta una plataforma web profesional especializada en servicios de diseño y construcción arquitectónica en entornos naturales. Este sitio web corporativo ha sido desarrollado con un enfoque en la experiencia del usuario, ofreciendo una interfaz elegante y funcional que permite a los visitantes explorar nuestra exclusiva colección de diseños arquitectónicos. La plataforma integra una presentación detallada de nuestros modelos residenciales, complementada con una galería interactiva que exhibe los interiores y características distintivas de cada proyecto. Nuestro compromiso con la excelencia se refleja en cada aspecto del sitio, proporcionando una herramienta integral para que nuestros clientes visualicen y seleccionen el diseño que mejor se adapte a sus aspiraciones de vida en armonía con la naturaleza.
 
 ## Tecnologías y Herramientas
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
-- **CSS3**: Estilos para el diseño y presentación.
-- **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
+- **CSS3**: Estilos para el diseño y presentación, incluyendo animaciones y transiciones.
+- **Responsive Design**: Diseño adaptable para dispositivos móviles, tablets y escritorio.
+- **Media Queries**: Técnicas de diseño adaptativo para diferentes tamaños de pantalla.
+- **SEO**: Optimización para motores de búsqueda con metadatos y estructura semántica.
+- **Favicon**: Iconos personalizados para diferentes dispositivos y navegadores.
 
 ## Estructura del Proyecto
 
-- **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla.
-- **img/**: Carpeta con imágenes utilizadas en la página.
-- **fonts/:** Carpeta con las fuentes utilizadas en la página.
-- **index.html**: Página principal del proyecto.
+- **css/**: Carpeta que contiene archivos CSS responsivos (style.css, style-tablet.css, style-desktop.css)
+- **img/**: Carpeta con imágenes de modelos de casas, interiores y exteriores
+- **favicon/**: Carpeta con iconos personalizados para diferentes dispositivos
+- **index.html**: Página principal con navegación, secciones de modelos, galería y contacto
 
 ## Uso
 
-Para empezar, simplemente abre el archivo `index.html` en tu navegador web preferido y explora las diferentes secciones de la tienda.
+Para visualizar el proyecto localmente, sigue estos pasos:
 
-¡Disfruta de tu experiencia de modelos de arquitectura en el Bosque!
+1. Clona este repositorio:
 
-## Instalación
+```
+git clone https://github.com/JMatochePascual/EcoStore.git
+```
 
-No se requiere instalación adicional para utilizar este proyecto.
+2. Navega al directorio del proyecto:
+
+```
+cd EcoStore
+```
+
+3. Abre el archivo `index.html` en tu navegador web preferido
+
+4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
 
 ## Contribución
 
-Si deseas contribuir al proyecto, sigue estos pasos:
+Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature-name`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Add new feature'`).
-4. Sube la rama (`git push origin feature-name`).
-5. Abre un Pull Request.
+
+2. Crea una nueva rama para tu funcionalidad:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Realiza y confirma tus cambios:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Sube los cambios a tu repositorio:
+   ```bash
+   git push origin feature-name
+   ```
+5. Abre un Pull Request desde tu repositorio hacia el proyecto principal
 
 ## Licencia
 
@@ -57,10 +64,10 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## Imagen de Rereferencia
 
-![](https://i.postimg.cc/qB5q4tBq/Arquitectura-Bosque.png)
+![](https://i.postimg.cc/7PzMj6dd/arquitectura.png)
 
-## Ver Proyecto en la WEB
+## ¡Visita Nuestro Proyecto!
 
-[ver Proyecto](https://jmatochepascual.github.io/Arquitectura/)
+¿Quieres ver Arquitectura en acción? ¡Haz clic aquí! 👉 [Visitar Arquitectura](https://jmatochepascual.github.io/Arquitectura/)
 
-© 2024 Arquitectura Bosque. Todos los derechos reservados.
+Hecho con 💚 por Arquitectura | ©2025 - Cuidando el planeta con cada producto
