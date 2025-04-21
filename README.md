@@ -1,22 +1,36 @@
-# ⚡️ARQUITECTURA
+# ARQUITECTURA
 
 Arquitectura Bosque presenta una plataforma web profesional especializada en servicios de diseño y construcción arquitectónica en entornos naturales. Este sitio web corporativo ha sido desarrollado con un enfoque en la experiencia del usuario, ofreciendo una interfaz elegante y funcional que permite a los visitantes explorar nuestra exclusiva colección de diseños arquitectónicos. La plataforma integra una presentación detallada de nuestros modelos residenciales, complementada con una galería interactiva que exhibe los interiores y características distintivas de cada proyecto. Nuestro compromiso con la excelencia se refleja en cada aspecto del sitio, proporcionando una herramienta integral para que nuestros clientes visualicen y seleccionen el diseño que mejor se adapte a sus aspiraciones de vida en armonía con la naturaleza.
 
-## Tecnologías y Herramientas
+## Caracteristicas
+
+- **Google Fonts**: Tipografías web optimizadas.
+- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
+- **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
+- **Responsive Design**: Diseño adaptable para todos los dispositivos.
+- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
+
+## Tecnologías
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
-- **CSS3**: Estilos para el diseño y presentación, incluyendo animaciones y transiciones.
-- **Responsive Design**: Diseño adaptable para dispositivos móviles, tablets y escritorio.
-- **Media Queries**: Técnicas de diseño adaptativo para diferentes tamaños de pantalla.
-- **SEO**: Optimización para motores de búsqueda con metadatos y estructura semántica.
-- **Favicon**: Iconos personalizados para diferentes dispositivos y navegadores.
+- **CSS3**: Estilos para el diseño y presentación.
+- **SCSS/SASS**: Preprocesador CSS para una escritura más eficiente de estilos.
+- **Gulp**: Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
 
 ## Estructura del Proyecto
 
-- **css/**: Carpeta que contiene archivos CSS responsivos (style.css, style-tablet.css, style-desktop.css)
-- **img/**: Carpeta con imágenes de modelos de casas, interiores y exteriores
-- **favicon/**: Carpeta con iconos personalizados para diferentes dispositivos
-- **index.html**: Página principal con navegación, secciones de modelos, galería y contacto
+- **css**: Carpeta que contiene los archivos.
+- **img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
+- **fonts**: Carpeta que contiene las fuentes del proyecto.
+- **index.html**: Página de inicio que presenta la aplicación.
+
+## Instalación
+
+> Nota: Para trabajar en este proyecto no se requiere instalación alguna
 
 ## Uso
 
@@ -25,13 +39,13 @@ Para visualizar el proyecto localmente, sigue estos pasos:
 1. Clona este repositorio:
 
 ```
-git clone https://github.com/JMatochePascual/EcoStore.git
+git clone https://github.com/JMatochePascual/DeliveryApp.git
 ```
 
 2. Navega al directorio del proyecto:
 
 ```
-cd EcoStore
+cd DeliveryApp
 ```
 
 3. Abre el archivo `index.html` en tu navegador web preferido
@@ -42,7 +56,7 @@ cd EcoStore
 
 Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
-1. Haz un fork del repositorio.
+1. Haz un fork del repositorio
 
 2. Crea una nueva rama para tu funcionalidad:
    ```bash
@@ -60,14 +74,6 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-## Imagen de Rereferencia
-
-![](https://i.postimg.cc/7PzMj6dd/arquitectura.png)
-
-## ¡Visita Nuestro Proyecto!
-
-¿Quieres ver Arquitectura en acción? ¡Haz clic aquí! 👉 [Visitar Arquitectura](https://jmatochepascual.github.io/Arquitectura/)
-
-Hecho con 💚 por Arquitectura | ©2025 - Cuidando el planeta con cada producto
+Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
